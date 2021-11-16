@@ -7,8 +7,6 @@ class Personne extends Component {
 
 
 
-
-
     render(){
         const monStyle = {
             backgroundColor: "green",
@@ -28,6 +26,7 @@ class Personne extends Component {
                 <h1 className={classes.monTitre}>{this.props.nom}</h1>
                 <AgePersonne age={this.props.age} />
                 <div style={monStyle}>Sexe : {this.props.sexe ? "Homme" : "Femme"}</div>
+                <button onClick={this.props.click}>Anniversaire</button>
             </>
         );
     }
