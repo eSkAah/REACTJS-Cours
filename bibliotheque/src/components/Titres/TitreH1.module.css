@@ -1,0 +1,11 @@
+.policeTitre{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.policeTitre:hover{
+    color: orange;
+    cursor: pointer;
+}
